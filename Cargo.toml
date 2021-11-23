@@ -9,7 +9,7 @@ edition = "2018"
 [dependencies]
 gtk-layer-shell-rs = { path = "vendor/gtk-layer-shell-rs/" }
 log = "0.4.11"
-env_logger = "0.7.1"
+env_logger = "0.9.0"
 gtk = { version = "0.9.0", features = ["v3_16"] }
 gdk = "0.13.2"
 gio = { version = "0.9.1", features = ["v2_64"] }
